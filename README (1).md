@@ -31,8 +31,6 @@ This project demonstrates a real-world **hybrid identity** deployment:
 - Install **Azure AD Connect** (Password Hash Sync + Seamless SSO) to synchronize on‑prem users to Azure AD.  
 - Validate Seamless SSO (Kerberos) from a domain‑joined Windows client to Azure apps (e.g., `myapps.microsoft.com` / Microsoft 365).
 
-This repo is intended to be a reproducible, well-documented lab that you can present in interviews and link on your resume.
-
 ---
 
 ## Why this matters (for hiring managers)
@@ -128,7 +126,7 @@ w32tm /resync
 
 ---
 
-## Screenshots to include (filenames)
+## Screenshots 
 Place your screenshots in `/screenshots/` with these filenames — these are used in `docs/IMAGES.md`:
 - `01-topology.png`  
 - `02-dc-network-ip.png`  
@@ -160,9 +158,6 @@ Produce a short 35–50s video (MP4) and a small GIF preview (4–6s) for README
 7. Browser open to `myapps.microsoft.com` — demonstrates silent login.  
 8. `klist` output showing Kerberos ticket + final repo link title card.
 
-**Voiceover (short)**: “This is a hybrid identity lab for `aniketlab.shop`. DC01 runs Windows Server 2022 at 192.168.1.10. Users sync to Azure via Azure AD Connect with Seamless SSO enabled. Here I trigger a sync, sign into a domain-joined client and SSO is verified by automatic login and a Kerberos ticket.”
-
-Embed GIF in README for preview and link full video (YouTube or `/video/demo.mp4`).
 
 ---
 
@@ -176,7 +171,7 @@ Embed GIF in README for preview and link full video (YouTube or `/video/demo.mp4
 
 ---
 
-## Repository structure (what to push)
+## Repository structure
 ```
 .
 ├── README.md                 # This file
@@ -198,16 +193,6 @@ Embed GIF in README for preview and link full video (YouTube or `/video/demo.mp4
 └── .gitignore
 ```
 
-**Tip:** If video is large, upload MP4 to YouTube (unlisted) and keep only a small GIF in the repo.
-
----
-
-## Resume-ready summary (copy-paste)
-Use this polished one-liner in your “Projects” section:
-
-**Hybrid Cloud Identity Infrastructure — On‑Prem AD & Azure AD Integration**  
-*Designed and implemented a hybrid identity environment by deploying Windows Server 2022 as an on‑prem Domain Controller and integrating it with Microsoft Entra (Azure AD) via Azure AD Connect. Enabled Seamless Single Sign-On for domain‑joined clients and validated secure authentication flows between on‑prem and cloud applications.*
-
 ---
 
 ## License
@@ -217,12 +202,5 @@ This project is released under the **MIT License** — see `LICENSE`.
 
 ## Final notes
 - `docs/INSTALL.md` is the canonical, step-by-step reproduction guide — use that when you follow or teach this lab.  
-- The README is written to present the project professionally for recruiters and interviewers. Link this repo on your resume and include the demo video in your interview materials.
-
+- The README is written to present the project professionally for recruiters and interviewers. 
 ---
-
-If you want, I will:
-- Push this updated README into your local repo file and give you the exact `git` commands to commit and push it to GitHub.  
-- Or generate the final short GIF (if you upload the MP4 here), or produce the `upload.sh` script to automate pushes.
-
-Tell me which next step you want and I’ll do it now.
