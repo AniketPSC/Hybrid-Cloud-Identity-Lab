@@ -45,7 +45,7 @@ For candidates applying to infrastructure/cloud roles (e.g., Microland), this pr
 ---
 
 ## Topology
-Mermaid diagram (GitHub renders Mermaid diagrams in README):
+
 
 ```mermaid
 graph TD
