@@ -204,6 +204,5 @@ Look for a valid TGT for the domain user — indicates Kerberos authentication.
 
 ## 18. Final notes
 - For production use a **member server** for AD Connect, follow least-privilege practices and review Microsoft documentation for high-availability.
-- When pushing to GitHub, avoid committing large media (video). Prefer linking to YouTube and include a small GIF in the repo for preview.
 
 Happy building — if anything fails, check DNS and time first; those cause most hybrid issues.
