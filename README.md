@@ -14,7 +14,6 @@
 - [Detailed install (full guide)](#detailed-install-full-guide)  
 - [How to verify SSO (tests & commands)](#how-to-verify-sso-tests--commands)  
 - [Screenshots](#Screenshots)  
-- [Demo video: script & shot list (summary)](#demo-video-script--shot-list-summary)  
 - [Troubleshooting checklist](#troubleshooting-checklist)  
 - [Repository structure (what to push)](#repository-structure-what-to-push)  
 - [Resume-ready summary (copy-paste)](#resume-ready-summary-copy-paste)  
@@ -138,22 +137,6 @@ w32tm /resync
 - `10-client-joined.png`  
 - `11-myapps-ssosuccess.png`  
 - `12-klist-output.png`
-
-
----
-
-## Demo video: script & shot list (summary)
-Produce a short 35–50s video (MP4) and a small GIF preview (4–6s) for README.
-
-**Shot list (6–8 clips, 5–8s each)**:
-1. Topology image (repo README) — introduce project.  
-2. `ipconfig` on DC showing `192.168.1.10`.  
-3. ADUC showing `rahul@aniketlab.shop` and `AZUREADSSOACC$`.  
-4. Azure Portal showing `aniketlab.shop` verified.  
-5. Run `Start-ADSyncSyncCycle` and show sync success / new user present in Azure AD.  
-6. Client login as `user@aniketlab.shop`.  
-7. Browser open to `myapps.microsoft.com` — demonstrates silent login.  
-8. `klist` output showing Kerberos ticket + final repo link title card.
 
 
 ---
