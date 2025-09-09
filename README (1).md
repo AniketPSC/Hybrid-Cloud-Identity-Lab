@@ -13,7 +13,7 @@
 - [Quick reproduction (summary)](#quick-reproduction-summary)  
 - [Detailed install (full guide)](#detailed-install-full-guide)  
 - [How to verify SSO (tests & commands)](#how-to-verify-sso-tests--commands)  
-- [Screenshots to include (filenames)](#screenshots-to-include-filenames)  
+- [Screenshots]([#screenshots-to-include-filenames](https://github.com/AniketPSC/Hybrid-Cloud-Identity-Lab/blob/main/README%20(1).md#screenshots))  
 - [Demo video: script & shot list (summary)](#demo-video-script--shot-list-summary)  
 - [Troubleshooting checklist](#troubleshooting-checklist)  
 - [Repository structure (what to push)](#repository-structure-what-to-push)  
