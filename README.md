@@ -201,6 +201,6 @@ This project is released under the **MIT License** — see `LICENSE`.
 ---
 
 ## Final notes
-- `docs/INSTALL.md` is the canonical, step-by-step reproduction guide — use that when you follow or teach this lab.  
+- `docs/INSTALL.md` is the canonical, step-by-step reproduction guide.  
 - The README is written to present the project professionally for recruiters and interviewers. 
 ---
