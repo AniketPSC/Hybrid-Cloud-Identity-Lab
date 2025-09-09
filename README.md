@@ -7,7 +7,7 @@
 
 ## Table of Contents
 - [Overview](#overview)  
-- [Why this matters (for hiring managers)](#why-this-matters-for-hiring-managers)  
+- [Why this matters](#why-this-matters)  
 - [Topology](#topology)  
 - [Prerequisites](#prerequisites)  
 - [Quick reproduction (summary)](#quick-reproduction-summary)  
@@ -33,14 +33,12 @@ This project demonstrates a real-world **hybrid identity** deployment:
 
 ---
 
-## Why this matters (for hiring managers)
+## Why this matters 
 This exercise demonstrates skills directly relevant to enterprise IT and cloud transition roles:
 - Identity and access management (on‑prem and cloud).  
 - Directory synchronization and authentication flows.  
 - Troubleshooting infrastructure-level problems (DNS, Kerberos, time sync).  
 - Practical experience with Microsoft enterprise tooling (Windows Server, Azure AD Connect, Microsoft Entra).
-
-For candidates applying to infrastructure/cloud roles (e.g., Microland), this project shows you can design, deploy and validate a secure hybrid identity solution — exactly the kind of work done in managed services and cloud migration projects.
 
 ---
 
