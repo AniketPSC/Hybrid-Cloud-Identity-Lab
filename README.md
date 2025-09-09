@@ -125,7 +125,7 @@ w32tm /resync
 ---
 
 ## Screenshots 
-Place your screenshots in `/screenshots/` with these filenames — these are used in `docs/IMAGES.md`:
+
 - `01-topology.png`  
 - `02-dc-network-ip.png`  
 - `03-ad-promotion.png`  
@@ -139,7 +139,6 @@ Place your screenshots in `/screenshots/` with these filenames — these are use
 - `11-myapps-ssosuccess.png`  
 - `12-klist-output.png`
 
-Add short captions under each image in `docs/IMAGES.md` (already included).
 
 ---
 
