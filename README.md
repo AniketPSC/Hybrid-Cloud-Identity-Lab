@@ -1,7 +1,7 @@
 # Hybrid Cloud Identity Lab — `aniketlab.shop`
 
 > **Professional hybrid-identity proof-of-concept**: on‑prem Active Directory (Windows Server 2022) synchronized to Microsoft Entra (Azure AD) with Azure AD Connect and **Seamless Single Sign-On (SSO)** for domain‑joined clients.  
-> This repo contains step‑by‑step docs, verification commands, helper scripts, screenshots and a short demo plan so you can reproduce, demo and present the project professionally.
+> This repo contains step‑by‑step docs, verification commands, helper scripts, screenshots and a short demo plan so you can reproduce, demo and present the project.
 
 ---
 
