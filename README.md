@@ -169,7 +169,7 @@ w32tm /resync
 ├── assets/
 │   └── demo-preview.gif
 ├── video/
-│   └── demo.mp4 (optional - large files discouraged)
+│   └── demo.mp4 
 └── .gitignore
 ```
 
