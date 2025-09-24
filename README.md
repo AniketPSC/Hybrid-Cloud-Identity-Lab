@@ -5,7 +5,7 @@
 
 ---
 
-## Table of Content
+## Table of Contents
 - [Overview](#overview)  
 - [Why this matters](#why-this-matters)  
 - [Topology](#topology)  
